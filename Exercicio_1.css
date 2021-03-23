@@ -1,0 +1,86 @@
+body
+{
+    background: #f7f7f7;
+    font-family: Verdana;
+    max-width: 900px;
+    margin: auto;
+}
+.cabecalho
+{
+    text-align: center;
+}
+
+.photo
+{
+    border: 5px solid red;
+    border-radius: 50%;
+}
+
+#title, .subtitle, .post_title, .footer, .mail, .linkedin, .github
+{
+    color: #505050;
+}
+.subtitle
+{
+    text-align: left;
+}
+#title
+{
+    font-size: 40px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+a
+{
+    text-decoration: line-through;
+    color: #505050;
+}
+
+.post_title
+{
+    font-size: 16px;
+    font-style: italic;
+    margin: 0;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.post
+{
+    background: #fff;
+    padding: 15px;
+    border: 3px solid #505050;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+.post_content
+{
+    margin: 0;
+    margin-bottom: 15px;
+    text-align:justify;
+}
+
+.post_content a
+{
+    text-decoration: none;
+}
+.post_image
+{
+    margin: 0;
+    margin-bottom: 15px;
+    width: 100%;
+}
+.contacts_list
+{
+    list-style-type: none;
+    padding-left: 15px;
+}
+.contacts_list a
+{
+    text-decoration: none;
+}
+.footer
+{
+    text-align: left;
+}
